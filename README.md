@@ -44,17 +44,7 @@ npm install jest @types/jest jest-preset-angular --save-dev
 import 'jest-preset-angular/setup-jest';
 ```
 
-## 7. create file jest.config.js
-
-```js
-module.exports = {
-  preset: 'jest-preset-angular',
-  setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
-  globalSetup: 'jest-preset-angular/global-setup',
-};
-```
-
-## 8. update tsconfig.spec.json
+## 7. update tsconfig.spec.json
 
 ```json
 {
@@ -68,7 +58,7 @@ module.exports = {
 }
 ```
 
-## 9. update package.json - modify "scripts" and add "jest"
+## 8. update package.json - modify "scripts" and add "jest"
 
 ```json
 "scripts": {
@@ -96,4 +86,4 @@ module.exports = {
 }
 ```
 
-## 10. replace jasmine syntax in the existing \*.spec.ts test files with jest
+## 9. replace jasmine syntax in the existing \*.spec.ts test files with jest
