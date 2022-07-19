@@ -1,4 +1,4 @@
-# How to setup Jest in Angular in 10(!!!) easy steps
+# How to setup Jest in Angular in 9(!!!) easy steps
 
 ## 1. remove Jasmine & Karma
 
